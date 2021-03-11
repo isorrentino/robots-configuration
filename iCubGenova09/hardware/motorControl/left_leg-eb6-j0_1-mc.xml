@@ -13,9 +13,9 @@
     <!-- joint name -->
     <group name="LIMITS">
         <param name="jntPosMax">                110                 110                 </param>
-        <param name="jntPosMin">                -40                 -8                  </param>
+        <param name="jntPosMin">                -40                 -15                 </param>
         <param name="jntVelMax">                240                 240                 </param>
-        <param name="motorNominalCurrents">     15000               15000                </param>
+        <param name="motorNominalCurrents">     15000               15000               </param>
         <param name="motorPeakCurrents">        20000               20000               </param>
         <param name="motorOverloadCurrents">    30000               30000               </param>
         <param name="motorPwmLimit">            16000               16000               </param>
@@ -51,7 +51,7 @@
         <param name="kp">                       -3000               7000                </param>
         <param name="kd">                       0                   0                   </param>
         <param name="ki">                       -1500               5000                </param>
-        <param name="maxOutput">                8000                8000                </param>
+        <param name="maxOutput">               12000               12000                </param>
         <param name="maxInt">                   1500                5000                </param>
         <param name="stictionUp">               0                   0                   </param>
         <param name="stictionDown">             0                   0                   </param>
@@ -99,7 +99,3 @@
     </group>
 
   </device>
-
-
-
-
